@@ -1,0 +1,19 @@
+// Colors
+
+$green: #219150;
+$black: #10221b;
+$white: #fff;
+$light-background: #eee;
+
+//Border
+$border: 0.2rem solid $black;
+
+//Box-shadow
+$box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+
+//Mixin
+@mixin grid($value) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($value, 1fr));
+  gap: 1.5rem;
+}
